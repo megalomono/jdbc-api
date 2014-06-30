@@ -11,7 +11,7 @@ package es.teseractos.query;
  * 
  * Su uso no es obligatorio.
  * 
- * @author Indra
+ * @author Fonso
  * 
  */
 public interface Modification {
