@@ -5,6 +5,6 @@ import java.sql.SQLException;
 
 public interface Parameter {
 
-	public int setValues(PreparedStatement stmt, int index)
-			throws SQLException;
+  public int setValues(PreparedStatement stmt, int index)
+      throws SQLException;
 }

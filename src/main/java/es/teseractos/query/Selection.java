@@ -18,11 +18,11 @@ import es.teseractos.query.condition.Condition;
  */
 public interface Selection {
 
-	/**
-	 * Añade una condición de filtrado a la consulta.
-	 * 
-	 * @param condition
-	 *            Condición a añadir.
-	 */
-	public void addCondition(Condition condition);
+  /**
+   * Añade una condición de filtrado a la consulta.
+   * 
+   * @param condition
+   *            Condición a añadir.
+   */
+  public void addCondition(Condition condition);
 }

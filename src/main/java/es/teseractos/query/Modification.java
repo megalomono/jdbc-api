@@ -16,14 +16,14 @@ package es.teseractos.query;
  */
 public interface Modification {
 
-	/**
-	 * 
-	 * Añade un campo para insertar.
-	 * 
-	 * @param field
-	 *            Campo a añadir.
-	 * @param value
-	 *            El valor a insertar.
-	 */
-	public void addField(String field, Object value);
+  /**
+   * 
+   * Añade un campo para insertar.
+   * 
+   * @param field
+   *            Campo a añadir.
+   * @param value
+   *            El valor a insertar.
+   */
+  public void addField(String field, Object value);
 }
